@@ -59,15 +59,8 @@ Divided Into $ sections for diffrent uses
   - `react-icons` -> for Icons use
   - `react-router_dom` -> as routing isn't included in React this package Help Alot in putting routing for the application
 
-  NOTE: Don't Forget to Use GIT to Organize your Code Versions
-
-  `Happy Coding 😁🚀💰`
-
-  OR as React Says
-
-  `Happy hacking!`
   
-  ## Hosting Your App on W3Schools
+## Hosting Your App on W3Schools
   
   - With some Help of [W3Schools](https://www.w3schools.com) We can Host our React App 
   
@@ -90,7 +83,7 @@ Divided Into $ sections for diffrent uses
   - now you can create, build, upload React apps easily ✌️
   
   
-    NOTE: Don't Forget to Use GIT to Organize your Code Versions
+  NOTE: Don't Forget to Use GIT to Organize your Code Versions
 
   `Happy Coding 😁🚀💰`
 
