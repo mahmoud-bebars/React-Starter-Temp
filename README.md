@@ -67,7 +67,7 @@ Divided Into $ sections for diffrent uses
 
   `Happy hacking!`
   
-  ## Some Always used Technologies
+  ## Hosting Your App on W3Schools
   
   - With some Help of [W3Schools](https://www.w3schools.com) We can Host our React App 
   
@@ -88,3 +88,12 @@ Divided Into $ sections for diffrent uses
   - test your web app
   
   - now you can create, build, upload React apps easily ✌️
+  
+  
+    NOTE: Don't Forget to Use GIT to Organize your Code Versions
+
+  `Happy Coding 😁🚀💰`
+
+  OR as React Says
+
+  `Happy hacking!`
