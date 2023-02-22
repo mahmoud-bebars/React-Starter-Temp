@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Getting Started React Temp App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+but it's coustomized for Faster Developing Start By Me
+
+## Needed Scripts
 
 In the project directory, you can run:
 
@@ -11,60 +13,56 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## App Sturcture
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Starting with the `./src`
 
-### `npm run eject`
+Divided Into $ sections for diffrent uses
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- `.\Components`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* should contain All uses components in the Application included the (Reusable components)
+* if there is A page having lots of components so you should organize them in A seprated Floder like `./home_components`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `./constents`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* the file should contain the constants for the applicaton like integrations Tokens or encrepted phases or the server url which should'nt be included in the code directly
 
-## Learn More
+- `./hooks`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* So all the requesting magic is do Here for example Data Get Request or POST
+  which sepreating it from the main UI code could save you Time in Refactoring & Debugging
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `./pages`
 
-### Code Splitting
+* No need To talk about this Folder, It contains the App main Pages For better Routing this could save you
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- The main File for the App which is `App.js`
 
-### Analyzing the Bundle Size
+- the Return Here contains the Router Component & meyhods for user Auth... tings like that & if you a context Lover like me this is the best place tio init your `useContext()`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- `index.js` is the heart of the app no needd to change in thing in it & it contains the CSS import so be Cearfully updating it\
 
-### Making a Progressive Web App
+- `index.css` this for main is so important because i use it alot with the `Tailwindcss` & the config file of it.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Some Always used Technologies
 
-### Advanced Configuration
+- near the React i need some extras for better coding & savuing time Like :-
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  - `TailwindCSS` -> for Styling
+  - `Axios` -> For HTTP Request Handling
+  - `react-icons` -> for Icons use
+  - `react-router_dom` -> as routing isn't included in React this package Help Alot in putting routing for the application
 
-### Deployment
+  NOTE: Don't Forget to Use GIT to Organize your Code Versions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  `Happy Coding 😁🚀💰`
 
-### `npm run build` fails to minify
+  OR as React Says
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  `Happy hacking!`

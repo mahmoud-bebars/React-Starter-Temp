@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react'
+import Home from './pages/Home'
+import GitHubUser from './hooks/GitHubUser'
 
 function App() {
+  const userData = GitHubUser()
+  const [data, setData] = useState(userData)
+
+  useEffect(() => {
+    setData(userData)
+    console.log(data)
+  }, [data, userData])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      {/* Always put your JSX in A fragments to aviod any Errors beacuse 1 tags should be putten in the return. */}
+      <Home data={data} />
+    </>
+  )
 }
 
-export default App;
+export default App
