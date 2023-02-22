@@ -41,7 +41,15 @@ const Home = ({ data }) => {
             <br /> For Better Expreince Launch & Debug Your App In Chrome
             Browser
           </p>
-          <div className='mt-10 flex items-center justify-center gap-x-6'>
+
+          <div className='m-4'>
+            <LinkButton
+              title='Clone Repo'
+              url='https://github.com/mahmoud-bebars/React-Starter-Temp.git'
+            />
+          </div>
+
+          <div className=' flex items-center justify-center gap-x-6'>
             <a
               href='https://tailwindcss.com'
               // this class is globalized to be used all over the app from index.css by appling classes one time & use it in many places for time saving.
@@ -51,6 +59,7 @@ const Home = ({ data }) => {
             </a>
             <LinkButton title='React Docs' url='https://reactjs.org' />
           </div>
+
           <p className='mt-6 text-sm text-gray-600'>
             For Better Expreince Launch & Debug Your App In Chrome Browser
           </p>
