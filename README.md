@@ -66,3 +66,25 @@ Divided Into $ sections for diffrent uses
   OR as React Says
 
   `Happy hacking!`
+  
+  ## Some Always used Technologies
+  
+  - With some Help of [W3Schools](https://www.w3schools.com) We can Host our React App 
+  
+  - Init the Build Script `npm run build`
+  
+  - you will find `./build` Directory Generated 
+  
+  - Go to [W3Schools spaces](https://spaces.w3schools.com)
+  
+  - create an account 
+  
+  - create space for the hosting
+  
+  - upload the build files one by one to the space you created
+  
+  - be aware of the `./static` directory to crerate it speartly & create the inner folders in it then upload file by file to it
+  
+  - test your web app
+  
+  - now you can create, build, upload React apps easily ✌️
