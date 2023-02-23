@@ -61,27 +61,59 @@ Divided Into $ sections for diffrent uses
   - `react-router_dom` -> as routing isn't included in React this package Help Alot in putting routing for the application
 
   
-## Hosting Your App on W3Schools
+## Hosting Your App on Netlify 
   
-  - With some Help of [W3Schools](https://www.w3schools.com) We can Host our React App 
+  ### With some Help of [Netlify](https://www.netlify.com) We can Host our React App 
+  
+  #### We have 2 Options
+  
+  ##### Manual Deploy
   
   - Init the Build Script `npm run build`
   
   - you will find `./build` Directory Generated 
   
-  - Go to [W3Schools spaces](https://spaces.w3schools.com)
+  - Go to [Netlify](https://www.netlify.com)
   
   - create an account 
   
-  - create space for the hosting
+  - go To `Add New Site` choose `deploy Manually`
   
-  - upload the build files one by one to the space you created
+  - Drag & Drop Your Build Directory
   
-  - be aware of the `./static` directory to crerate it speartly & create the inner folders in it then upload file by file to it
+  - Wait for the Deploy Process to End.
   
-  - test your web app
+  - Change your Site Domain Name
   
-  - now you can create, build, upload React apps easily ✌️
+  - test your web app  
+  
+  - Enjoy showing Your Site to People
+ 
+  ##### Connect Netlify GitHub Repo
+  
+  - Create Repo on GitHub for your Project
+  
+  - Commit the code to the Repo
+  
+  - Go to [Netlify](https://www.netlify.com)
+  
+  - In `Add New Site` choose `Import an Existing Project`
+  
+  - connect git Provider In our Case It's `GitHub`
+  
+  - choose The repo You Want to Deploy
+  
+  - Netlify Here will Build & Deploy the App for you
+  
+  - Wait until Deployment Process End
+  
+  - change your site name Or explore your free Options in Netlify
+  
+  - test your web app  
+  
+  
+  
+```now you can create, build, upload React apps easily ✌️```
   
   
   NOTE: Don't Forget to Use GIT to Organize your Code Versions
