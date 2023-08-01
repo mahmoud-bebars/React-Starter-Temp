@@ -1,7 +1,8 @@
 ![repo screen](https://user-images.githubusercontent.com/66588352/220696317-46af52a3-4c5d-4127-aeb0-b194b21745da.png)
+
 # Getting Started React Temp App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Vite](https://vitejs.dev).
 
 but it's coustomized for Faster Developing Start By Me
 
@@ -60,66 +61,62 @@ Divided Into $ sections for diffrent uses
   - `react-icons` -> for Icons use
   - `react-router_dom` -> as routing isn't included in React this package Help Alot in putting routing for the application
 
-  
-## Hosting Your App on Netlify 
-  
-  ### With some Help of [Netlify](https://www.netlify.com) We can Host our React App 
-  
-  #### We have 2 Options
-  
-  ##### Manual Deploy
-  
-  - Init the Build Script `npm run build`
-  
-  - you will find `./build` Directory Generated 
-  
-  - Go to [Netlify](https://www.netlify.com)
-  
-  - create an account 
-  
-  - go To `Add New Site` choose `deploy Manually`
-  
-  - Drag & Drop Your Build Directory
-  
-  - Wait for the Deploy Process to End.
-  
-  - Change your Site Domain Name
-  
-  - test your web app  
-  
-  - Enjoy showing Your Site to People
- 
-  ##### Connect Netlify GitHub Repo
-  
-  - Create Repo on GitHub for your Project
-  
-  - Commit the code to the Repo
-  
-  - Go to [Netlify](https://www.netlify.com)
-  
-  - In `Add New Site` choose `Import an Existing Project`
-  
-  - connect git Provider In our Case It's `GitHub`
-  
-  - choose The repo You Want to Deploy
-  
-  - Netlify Here will Build & Deploy the App for you
-  
-  - Wait until Deployment Process End
-  
-  - change your site name Or explore your free Options in Netlify
-  
-  - test your web app  
-  
-  
-  
-```now you can create, build, upload React apps easily ✌️```
-  
-  
-  NOTE: Don't Forget to Use GIT to Organize your Code Versions
+## Hosting Your App on Netlify
 
-  `Happy Coding 😁🚀💰`
+### With some Help of [Netlify](https://www.netlify.com) We can Host our React App
 
-  OR as React Says
+#### We have 2 Options
 
-  `Happy hacking!`
+##### Manual Deploy
+
+- Init the Build Script `npm run build`
+
+- you will find `./build` Directory Generated
+
+- Go to [Netlify](https://www.netlify.com)
+
+- create an account
+
+- go To `Add New Site` choose `deploy Manually`
+
+- Drag & Drop Your Build Directory
+
+- Wait for the Deploy Process to End.
+
+- Change your Site Domain Name
+
+- test your web app
+
+- Enjoy showing Your Site to People
+
+##### Connect Netlify GitHub Repo
+
+- Create Repo on GitHub for your Project
+
+- Commit the code to the Repo
+
+- Go to [Netlify](https://www.netlify.com)
+
+- In `Add New Site` choose `Import an Existing Project`
+
+- connect git Provider In our Case It's `GitHub`
+
+- choose The repo You Want to Deploy
+
+- Netlify Here will Build & Deploy the App for you
+
+- Wait until Deployment Process End
+
+- change your site name Or explore your free Options in Netlify
+
+- test your web app
+
+`now you can create, build, upload React apps easily ✌️`
+
+NOTE: Don't Forget to Use GIT to Organize your Code Versions
+
+`Happy Coding 😁🚀💰`
+
+OR as React Says
+
+`Happy hacking!`
